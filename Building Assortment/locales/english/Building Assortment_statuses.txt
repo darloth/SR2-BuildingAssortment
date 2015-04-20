@@ -1,0 +1,1 @@
+S_HABITAT_BAND_DESC: A glittering ring of small space habitats surrounds this world like a bracelet.  Adds extra population capacity and also space for constructing facilities in orbit.

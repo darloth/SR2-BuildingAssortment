@@ -1,0 +1,2 @@
+Status: ConstructingHabitatBand
+	Visible To: Nobody

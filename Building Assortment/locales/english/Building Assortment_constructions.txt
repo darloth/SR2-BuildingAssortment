@@ -1,0 +1,7 @@
+CONS_HABITAT_BAND_DESC: <<
+	Construct a large number of self-contained orbital habitats around a planet.  These add several small separated parcels of usable space, and increase the maximum population of the planet by 8.
+
+	Only one habitat band may be constructed per planet.
+
+	Not certified safe against rogue nanoplagues.
+>>

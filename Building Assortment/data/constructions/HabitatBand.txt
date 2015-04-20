@@ -1,0 +1,18 @@
+Construction: HabitatBand
+	Name: Habitat Band
+	Description: #CONS_HABITAT_BAND_DESC
+
+	Category: Infrastructure
+
+	Build Cost: 1000
+	Labor Cost: 250
+
+
+	OnStart(AddStatus(ConstructingHabitatBand))
+	OnCancel(RemoveStatusInstance(ConstructingHabitatBand))
+
+	RequireNotStatus(ConstructingHabitatBand)
+	RequireNotStatus(HabitatBand)
+	AddStatus(HabitatBand, Max Stacks = 1)
+	ConsumeCargo(Ore, 1000)
+	AddSurfaceArea(Artificial, (2, 5))

@@ -1,0 +1,2 @@
+Status: HasSpaceElevator
+	Visible To: Nobody

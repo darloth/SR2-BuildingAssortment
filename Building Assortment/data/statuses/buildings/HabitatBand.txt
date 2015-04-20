@@ -1,0 +1,5 @@
+Status: HabitatBand
+	Name: Habitat Band
+	Description: #S_HABITAT_BAND_DESC
+	Icon: ResourceIconsSmall::3
+	AddMaxPopulation(8)

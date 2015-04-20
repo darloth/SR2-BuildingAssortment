@@ -1,0 +1,14 @@
+BLD_REFINERY_DESC: <<
+	Adds 1 extra pressure of the native resource's main pressure type but also reduces the planetary pressure cap by 1.
+
+	The pressure is added on this planet only, and is not exported or removed when the native resource is exported.
+
+	[i]Cannot be built on planets without native pressure, or whose only pressure type is money.[/i]
+>>
+BLD_FORGE_DESC: <<
+	Increases labor generation by 25%.
+
+	Will also slowly generate ore (1.5 units / second) if a Space Elevator is present to lift it into orbit.
+
+	The more forges you construct, the larger and more expensive subsequent forges become.
+>>

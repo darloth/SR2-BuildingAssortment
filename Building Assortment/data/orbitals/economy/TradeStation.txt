@@ -1,0 +1,30 @@
+Module: TradeStation
+	Name: #ORB_TRADE_STATION
+	Blurb: #ORB_TRADE_STATION_BLURB
+	Description: #ORB_TRADE_STATION_DESC
+	Icon: GuiOrbitalIcons::0
+	Strategic Icon: OrbitalIcons::0
+
+	Core: True
+	Standalone: True
+
+	Build Cost: 500
+	Maintenance: 100
+	Labor Cost: 15
+	Size: 16
+
+	Health: 5000
+	Armor: 1000
+
+	Model: CommerceStation
+	Material: VolkurGenericPBR
+
+	GrantAbility(BuyInfluence) #version>=93
+	GrantAbility(BuyEnergy) #version>=93
+	GrantAbility(BuyResearch) #version>=93
+	GrantAbility(BuyLabor) #version>=93
+
+	FriendlyPlanetMoney(To Self = 40, To Other = 40, Count Self = True)
+	LimitOncePerSystem(TradeStationFlag)
+	GiveTrade()
+	GlobalTradeNode()

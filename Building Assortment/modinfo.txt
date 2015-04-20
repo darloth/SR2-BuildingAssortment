@@ -1,0 +1,11 @@
+	Name: Building Assortment
+	Description: <<
+		Extra buildings, changed buildings, get your fresh new buildings here!
+
+		Contains a variety of stuff, not all of which may show up on a tooltip:
+
+		* Cheaper refineries, but they decrease Pressure cap representing your populace having less time to work on raw resources as more of them work in the refinery.
+		* Forges slowly generate ore if they are on the same planet as a space elevator (to get the ore where it's needed).  Additionally, forges get LESS expensive again if you demolish them.
+		* Habitat Belt, increases population size and buildable area.
+		* Trade Stations generate money per friendly planet, and cost a little less, but are limited to one per system.
+	>>
