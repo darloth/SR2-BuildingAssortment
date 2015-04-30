@@ -1,0 +1,28 @@
+Effect: SizeScaledDamage
+	Value: Amount
+	Value: BaselineSize
+	Value: MinRatio
+	Value: MaxRatio
+	Value: DamageType
+	
+	End: ba_combat::SizeScaledDamage
+
+Effect: SpawnMicroBlackHole
+	Value: Amount
+	Value: Radius
+	Value: BaselineSize
+	Value: MinRatio
+	Value: MaxRatio
+	Value: DamageType
+	
+	End: ba_combat::SpawnMicroBlackHole
+	
+Effect: SizeScaledAreaDamage
+	Value: Amount
+	Value: Radius
+	Value: BaselineSize
+	Value: MinRatio
+	Value: MaxRatio
+	Value: DamageType
+	
+	End: ba_combat::SizeScaledAreaDamage

@@ -1,0 +1,11 @@
+Building: AncientCannon
+	Name: #BLD_ANCIENT_CANNON
+	Description: #BLD_ANCIENT_CANNON_DESC
+	Sprite: PlanetaryArtilleryCannon
+
+	Size: 9x3
+	Build Time: 1
+	Base Cost: 1
+
+
+	IfNotSiege( AddTurret(BlackHoleCannon, Range=4000, Damage=1500, Radius=250, Reload=10.0, Speed=250, Spread=0.0, FireArc=3.14, Tracking=0.2, FireTolerance=0) )

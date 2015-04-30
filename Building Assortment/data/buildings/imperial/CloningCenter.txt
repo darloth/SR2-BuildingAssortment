@@ -1,0 +1,20 @@
+Building: CloningCenter
+	Name: #BLD_CLONING_CENTER
+	Description: #BLD_CLONING_CENTER_DESC
+	Sprite: Megafarm * #447788
+
+	Category: Infrastructure
+	Build Affinity: Artificial
+
+	Size: 3x3
+	Base Cost: 500
+	Tile Cost: 50
+	Base Maintenance: 1000
+	Tile Maintenance: 100
+
+	Build Time: 120
+
+	RequireUnlockTag(CloningCenterUnlock)
+	ModCivResourceMult(Research, -0.5)
+	ModPopulationGrowth(+4)
+	RequireNotTrait(Mechanoid)

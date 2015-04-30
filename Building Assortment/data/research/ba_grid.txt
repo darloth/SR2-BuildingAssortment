@@ -1,0 +1,2 @@
+Grid: Base
+	BldCloningCenter: 5,-3

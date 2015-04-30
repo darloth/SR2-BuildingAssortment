@@ -1,0 +1,15 @@
+Technology: BldCloningCenter
+	Name: Cloning Centers
+	Description: #R_BLD_CLONING_DESC:25
+	Class: Unlock
+
+	Point Cost: 1000
+	Time Cost: 160
+
+	Icon: Megafarm * #447788
+	Color: #fff300
+
+	UnlockTag(CloningCenterUnlock)
+	SkipOnUnlockedTag(CloningCenterUnlock)
+
+	SecondaryInfluenceCost(25)

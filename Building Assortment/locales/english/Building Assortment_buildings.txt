@@ -12,3 +12,12 @@ BLD_FORGE_DESC: <<
 
 	The more forges you construct, the larger and more expensive subsequent forges become.
 >>
+BLD_CLONING_CENTER: Cloning Center
+BLD_CLONING_CENTER_DESC: Increases population growth speed by +400%, but has heavy maintenance cost and reduces research income due to clone education burden.  Can be demolished once it is no longer needed.
+BLD_ANCIENT_CANNON_DESC: <<
+	An ancient, massive, and mysterious planetary cannon, found on this planet and activated by the colonists.
+
+	It fires shells built inside the core of the weapon via unknown processes, but scientists believe each shell contains a micro-singularity ready to explode into a graviton collapse event whenever they strike an enemy vessel.
+
+	The cannon is deactivated if there are enemy fleets sieging the planet, and all the planet's orbital defenses are destroyed.
+>>

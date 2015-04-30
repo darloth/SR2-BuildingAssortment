@@ -1,0 +1,44 @@
+Subsystem: BlackholeTest
+	Name: Black Hole Cannon
+	Description: Fires black holes. Just for fun.
+	BaseColor: #1a2209
+	TypeColor: #1a2209
+	Picture: SubsystemButtonArt::2
+	Elevation: 2
+
+	Tags: BaseCost
+	Tags: WeaponBase, Rotatable, Category:Weapons
+	Tags: ExteriorCore, Weapon, IsExplosiveWeapon, HasInternals, SecondaryDPS
+	Hull: Flagship, Station
+
+	Size := HexSize * Hexes
+
+	Range := Size + 1000
+	Damage := Size * 32
+	Reload := 8
+	SupplyCost := Size * 16.0
+
+	Hex.HP := 18 * HexSize
+	Hex.Resistance := 0.2
+	Hex.Mass := HexSize
+
+	Requires:
+		Command = 1
+
+	Module: Default
+
+	Module: Core
+		Hex.HP := Hex.HP * 2
+		Sprite: HexagonSubsystems::1
+
+		Hex.DamageResist := ShipSize / 64.0
+		Effect: DamageResist
+			Resist = Hex.DamageResist
+
+	Effector: BlackHoleCannon
+		Range = Range
+		Damage = Damage
+		Reload = Reload
+		Speed = 200
+		Tracking = -1
+		SupplyCost = SupplyCost * Reload
