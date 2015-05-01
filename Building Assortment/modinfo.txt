@@ -4,6 +4,7 @@
 
 		Contains a variety of stuff, not all of which may show up on a tooltip:
 
+		*Planetary cannons are upgraded, and can be upgraded further by constructing an ammo plant. You have two options, more fleet area damage or range+single target damage.
 		*Ancient Planetary Cannons fire micro-singularity shells now. They kill fleets.
 		*Cloning Center - mid to endgame research unlock, +400% population growth for large maint. cost and research penalty. No new art yet.
 		* Cheaper refineries, but they decrease Pressure cap representing your populace having less time to work on raw resources as more of them work in the refinery.
