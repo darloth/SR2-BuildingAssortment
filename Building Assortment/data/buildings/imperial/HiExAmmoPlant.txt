@@ -1,0 +1,16 @@
+Building: HiExAmmoPlant
+	Name: #BLD_HIEXAMMOPLANT
+	Description: #BLD_HIEXAMMOPLANT_DESC
+	Sprite: ResearchComplex * #ffaa66
+
+	Category: Military
+	Build Affinity: Volcanic
+	Maintenance Affinity: Volcanic
+
+	Size: 2x2
+	Base Cost: 50
+	Tile Cost: 25
+	Base Maintenance: 40
+	Tile Maintenance: 15
+	AddStatus(HiExAmmo)
+	ConflictBuilding(RocketCannonAmmoPlant, Hide = False)

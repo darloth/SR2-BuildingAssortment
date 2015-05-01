@@ -1,7 +1,7 @@
-Effector: BlackHoleCannon
+Effector: TrailedArtillery
 	Value: Range
 	Value: Damage
-	Value: Reload = 15
+	Value: Reload
 	Value: Speed
 	Value: Radius = 100
 	Value: Tracking = pi
@@ -12,6 +12,7 @@ Effector: BlackHoleCannon
 	Value: FireTolerance = 0
 	Value: Pierce = 0.5
 	Value: SupplyCost = 0
+	Value: Hits = 5
 
 	Range: Range
 	Speed: Speed
@@ -32,19 +33,15 @@ Effector: BlackHoleCannon
 
 	PhysicalType: Projectile
 	GfxType: Sprite
-	GfxSize: 50
+	GfxSize: 5
 	FireSfx: railgun_fire
 	FireSfx: muon_fire
 	Material: RailgunEmit
 	Trail: MissileTrail
-	TrailCol: ff00ffff, 00000000
+	TrailCol: ff5500ff, 00000000
 	ImpactGfx: ImpactFlare
-	PhysicalSize: 10.0
 
-	Effect: SizeScaledAreaDamage
+	Effect: AreaExplDamage
 		Amount = Damage
 		Radius = Radius
-		BaselineSize = 100
-		MinRatio = 0.1
-		MaxRatio = 25
-		DamageType = 0
+		Hits = Hits

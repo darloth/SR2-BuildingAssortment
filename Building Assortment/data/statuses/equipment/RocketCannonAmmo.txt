@@ -1,0 +1,4 @@
+Status: RocketCannonAmmo
+	Visible To: Nobody
+	Unique: True
+	Description: Planet has Rocket Cannon Ammo available

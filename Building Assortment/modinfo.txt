@@ -4,7 +4,7 @@
 
 		Contains a variety of stuff, not all of which may show up on a tooltip:
 
-		*Ancient Planetary Cannons fire black holes now.
+		*Ancient Planetary Cannons fire micro-singularity shells now. They kill fleets.
 		*Cloning Center - mid to endgame research unlock, +400% population growth for large maint. cost and research penalty. No new art yet.
 		* Cheaper refineries, but they decrease Pressure cap representing your populace having less time to work on raw resources as more of them work in the refinery.
 		* Forges slowly generate ore if they are on the same planet as a space elevator (to get the ore where it's needed).  Additionally, forges get LESS expensive again if you demolish them.

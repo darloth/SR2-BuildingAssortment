@@ -1,0 +1,16 @@
+Building: RocketCannonAmmoPlant
+	Name: #BLD_ROCKETAMMOPLANT
+	Description: #BLD_ROCKETAMMOPLANT_DESC
+	Sprite: ResearchComplex * #ff3366
+
+	Category: Military
+	Build Affinity: Crystallic
+	Maintenance Affinity: Crystallic
+
+	Size: 2x2
+	Base Cost: 50
+	Tile Cost: 25
+	Base Maintenance: 40
+	Tile Maintenance: 15
+	AddStatus(RocketCannonAmmo)
+	ConflictBuilding(HiExAmmoPlant, Hide = False)

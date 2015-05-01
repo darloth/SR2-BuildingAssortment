@@ -14,5 +14,7 @@ Building: PlanetaryCannon
 
 	AddStatus(HasDefenses)
 
-	IfNotSiege( AddTurret(Artillery, Range=1500, Damage=400, Radius=50, Reload=5.0, Speed=200, Spread=0.0, FireArc=3.14, Tracking=0.2, FireTolerance=0, Hits=15) ) #version<106
-	IfNotSiege( RepeatExtended(AddTurret(Artillery, Range=1500, Damage=400, Radius=50, Reload=5.0, Speed=200, Spread=0.0, FireArc=3.14, Tracking=0.2, FireTolerance=0, Hits=15), Base = 1, Multiply Attribute = StaticDamageFactor) ) #version>=106
+	IfHaveStatus(RocketCannonAmmo, IfNotSiege(RepeatExtended(AddTurret(TrailedArtillery, Range=4000, Damage=1000, Radius=10, Reload=5.0, Speed=600, Tracking=1, Spread=0.0, FireArc=3.14, FireTolerance=0, Hits=1), Multiply Attribute = StaticDamageFactor, Base = 1)))
+	IfHaveStatus(HiExAmmo, IfNotSiege(RepeatExtended(AddTurret(TrailedArtillery, Range=1500, Damage=1200, Radius=100, Reload=5.0, Speed=150, Spread=0.0, FireArc=3.14, Tracking=0.2, FireTolerance=0, Hits=15), Base = 1, Multiply Attribute = StaticDamageFactor)))
+	IfNotSiege(AddTurret(TrailedArtillery, Range=1500, Damage=600, Radius=50, Reload=5.0, Speed=200, Spread=0.0, FireArc=3.14, Tracking=0.2, FireTolerance=0, Hits=2)) #version<106
+	IfNotSiege(IfNotHaveStatus(HiExAmmo, IfNotHaveStatus(RocketCannonAmmo, RepeatExtended(AddTurret(TrailedArtillery, Range=1500, Damage=400, Radius=50, Reload=5.0, Speed=200, Spread=0.0, FireArc=3.14, Tracking=0.2, FireTolerance=0, Hits=2), Multiply Attribute = StaticDamageFactor, Base = 1))))

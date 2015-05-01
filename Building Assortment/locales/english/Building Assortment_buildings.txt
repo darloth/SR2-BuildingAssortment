@@ -21,3 +21,22 @@ BLD_ANCIENT_CANNON_DESC: <<
 
 	The cannon is deactivated if there are enemy fleets sieging the planet, and all the planet's orbital defenses are destroyed.
 >>
+BLD_PLANET_CANNON_DESC: <<
+	An enormous railgun on the planet's surface propels large projectiles towards enemy fleets in the system, inflicting devastating damage.
+
+	The cannon deals 600 Damage every 5 seconds at 1500 range using default self-manufactured projectiles, but either effective damage or range can be significantly upgraded with specialized munitions.
+
+	[i]If there are enemy fleets in orbit and you do not have any remaining support ships to protect the satellite guidance system, the artillery cannon is disabled.[/i]
+>>
+BLD_HIEXAMMOPLANT: High-Explosive Gel Ammo Plant
+BLD_HIEXAMMOPLANT_DESC: <<
+	Produces railgun shells packed with magnetically stable high explosive gel.
+
+	These shells use a second stage detonation to massively increase both the area and effective damage compared to unmodified railgun shells, but as a result of spreading this damage over a large area they are less effective against heavy armor or single vessels.
+>>
+BLD_ROCKETAMMOPLANT: Rocket-Assisted Ammo Pre-Assembler
+BLD_ROCKETAMMOPLANT_DESC: <<
+	Produces railgun shells with an additional rocket boost stage to accelerate them after leaving the atmosphere, though they are effectively unguided after the boost.
+
+	These shells are very effective against large single vessels.  Although they almost entirely lack an area radius effect as so much of the explosive has to be removed to leave space for the booster, their enhanced kinetic velocity allows for greater force to be delivered to their targets, and a lucky shot can often gut larger ships in a single hit.
+>>
