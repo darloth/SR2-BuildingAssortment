@@ -8,4 +8,5 @@ Building: AncientCannon
 	Base Cost: 1
 
 
+	CannotBuildManually()
 	IfNotSiege( AddTurret(BlackHoleCannon, Range=4000, Damage=2000, Radius=250, Reload=10.0, Speed=250, Spread=0.0, FireArc=3.14, Tracking=0.2, FireTolerance=0) )
