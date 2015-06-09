@@ -1,2 +1,2 @@
 Grid: Base
-	BldCloningCenter: 5,-3
+	BldCloningCenter: 2,12
