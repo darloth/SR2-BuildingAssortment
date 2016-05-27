@@ -16,4 +16,8 @@ Building: Farm
 	Maintenance Affinity: Forest
 	AddPlanetResource(Soylent1)
 
+	RequireNotTrait(Ancient)
+
 	RequireNotTrait(Mechanoid)
+
+	AI:AsCreatedResource(Soylent1)

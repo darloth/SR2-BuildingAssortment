@@ -11,4 +11,5 @@
 		* Forges slowly generate ore if they are on the same planet as a space elevator (to get the ore where it's needed).  Additionally, forges get LESS expensive again if you demolish them.
 		* Habitat Belt, increases population size and buildable area.
 		* Trade Stations generate money per friendly planet, and cost a little less, but are limited to one per system.
+		* Farms and Hydrogenators are much cheaper to build and maintain on Forest and Ocean respectively.
 	>>

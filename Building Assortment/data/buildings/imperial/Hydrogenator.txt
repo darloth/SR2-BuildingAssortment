@@ -17,3 +17,6 @@ Building: Hydrogenator
 	AddPlanetResource(BuildingWater)
 
 	RequireNotTrait(Mechanoid)
+	RequireNotTrait(Ancient)
+
+	AI:AsCreatedResource(BuildingWater)

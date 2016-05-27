@@ -36,7 +36,7 @@ BLD_HIEXAMMOPLANT_DESC: <<
 >>
 BLD_ROCKETAMMOPLANT: Rocket-Assisted Ammo Pre-Assembler
 BLD_ROCKETAMMOPLANT_DESC: <<
-	Produces railgun shells with an additional rocket boost stage to accelerate them after leaving the atmosphere, though they are effectively unguided after the boost.
+	Produces railgun shells with an additional rocket boost stage to accelerate them after leaving the atmosphere.  This increases their range significantly even though they are unguided after the boost finishes.
 
-	These shells are very effective against large single vessels.  Although they almost entirely lack an area radius effect as so much of the explosive has to be removed to leave space for the booster, their enhanced kinetic velocity allows for greater force to be delivered to their targets, and a lucky shot can often gut larger ships in a single hit.
+	These shells are very effective against large single vessels.  Although they have only a very small area effect radius (much of the explosive charge has to be removed to leave space for the booster), their enhanced kinetic velocity allows for greater force to be delivered to their targets, and a lucky shot can often gut larger ships in a single hit.
 >>
