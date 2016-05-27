@@ -12,4 +12,7 @@
 		* Habitat Belt, increases population size and buildable area.
 		* Trade Stations generate money per friendly planet, and cost a little less, but are limited to one per system.
 		* Farms and Hydrogenators are much cheaper to build and maintain on Forest and Ocean respectively.
+
+		This mod is now essentially deprecated and will not be updated as frequently as the Heralds version.
 	>>
+	Compatibility: 200
