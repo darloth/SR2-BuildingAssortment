@@ -12,13 +12,16 @@ Building: Forge0
 
 	ConstructibleIfAttribute(ForgeCount, 0)
 
+	RequireNotTrait(Ancient)
+
 	TriggerStartConstruction( ModAttribute(ForgeCount, Add, 1) )
 	TriggerCancelConstruction( ModAttribute(ForgeCount, Add, -1) )
+	TriggerConstructed( ModAttribute(ForgeCount, Add, -1) )
 
+	ModEmpireAttribute(ForgeCount, Add, 1)
 	AddLaborFactor(0.25)
 
 	IfHaveStatus(HasSpaceElevator, ba_generic_effects::GenerateCargoPerSecond(Ore, 1.5))
-	OnDisable(ModAttribute(ForgeCount, Add, -1))
 Building: Forge1
 	Name: #BLD_FORGE
 	Description: #BLD_FORGE_DESC
@@ -35,11 +38,12 @@ Building: Forge1
 
 	TriggerStartConstruction( ModAttribute(ForgeCount, Add, 1) )
 	TriggerCancelConstruction( ModAttribute(ForgeCount, Add, -1) )
+	TriggerConstructed( ModAttribute(ForgeCount, Add, -1) )
 
+	ModEmpireAttribute(ForgeCount, Add, 1)
 	AddLaborFactor(0.25)
 
 	IfHaveStatus(HasSpaceElevator, ba_generic_effects::GenerateCargoPerSecond(Ore, 1.5))
-	OnDisable(ModAttribute(ForgeCount, Add, -1))
 Building: Forge2
 	Name: #BLD_FORGE
 	Description: #BLD_FORGE_DESC
@@ -56,11 +60,12 @@ Building: Forge2
 
 	TriggerStartConstruction( ModAttribute(ForgeCount, Add, 1) )
 	TriggerCancelConstruction( ModAttribute(ForgeCount, Add, -1) )
+	TriggerConstructed( ModAttribute(ForgeCount, Add, -1) )
 
+	ModEmpireAttribute(ForgeCount, Add, 1)
 	AddLaborFactor(0.25)
 
 	IfHaveStatus(HasSpaceElevator, ba_generic_effects::GenerateCargoPerSecond(Ore, 1.5))
-	OnDisable(ModAttribute(ForgeCount, Add, -1))
 Building: Forge3
 	Name: #BLD_FORGE
 	Description: #BLD_FORGE_DESC
@@ -77,11 +82,12 @@ Building: Forge3
 
 	TriggerStartConstruction( ModAttribute(ForgeCount, Add, 1) )
 	TriggerCancelConstruction( ModAttribute(ForgeCount, Add, -1) )
+	TriggerConstructed( ModAttribute(ForgeCount, Add, -1) )
 
+	ModEmpireAttribute(ForgeCount, Add, 1)
 	AddLaborFactor(0.25)
 
 	IfHaveStatus(HasSpaceElevator, ba_generic_effects::GenerateCargoPerSecond(Ore, 1.5))
-	OnDisable(ModAttribute(ForgeCount, Add, -1))
 Building: Forge4
 	Name: #BLD_FORGE
 	Description: #BLD_FORGE_DESC
@@ -98,7 +104,8 @@ Building: Forge4
 
 	TriggerStartConstruction( ModAttribute(ForgeCount, Add, 1) )
 	TriggerCancelConstruction( ModAttribute(ForgeCount, Add, -1) )
+	TriggerConstructed( ModAttribute(ForgeCount, Add, -1) )
 
+	ModEmpireAttribute(ForgeCount, Add, 1)
 	IfHaveStatus(HasSpaceElevator, ba_generic_effects::GenerateCargoPerSecond(Ore, 1.5))
-	OnDisable(ModAttribute(ForgeCount, Add, -1))
 	AddLaborFactor(0.25)

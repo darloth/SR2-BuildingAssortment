@@ -1,2 +1,2 @@
-Grid: Base
-	BldCloningCenter: 2,12
+Grid: Heralds
+	BldCloningCenter: 7,0

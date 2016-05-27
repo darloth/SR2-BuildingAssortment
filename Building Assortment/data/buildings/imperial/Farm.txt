@@ -20,4 +20,4 @@ Building: Farm
 
 	RequireNotTrait(Mechanoid)
 
-	AI:AsCreatedResource(Soylent1)
+	AI: AsCreatedResource(Soylent1)

@@ -2,8 +2,8 @@ Module: TradeStation
 	Name: #ORB_TRADE_STATION
 	Blurb: #ORB_TRADE_STATION_BLURB
 	Description: #ORB_TRADE_STATION_DESC
-	Icon: GuiOrbitalIcons::0
-	Strategic Icon: OrbitalIcons::0
+	Icon: GuiOrbitalIcons::15
+	Strategic Icon: OrbitalIcons::15
 
 	Core: True
 	Standalone: True
@@ -17,14 +17,14 @@ Module: TradeStation
 	Armor: 1000
 
 	Model: CommerceStation
-	Material: VolkurGenericPBR
+	Material: GenericPBR_CommerceStation
 
 	GrantAbility(BuyInfluence) #version>=93
 	GrantAbility(BuyEnergy) #version>=93
 	GrantAbility(BuyResearch) #version>=93
 	GrantAbility(BuyLabor) #version>=93
 
-	FriendlyPlanetMoney(To Self = 40, To Other = 40, Count Self = True)
+	FriendlyPlanetMoney(To Self = 20, To Other = 25, Count Self = True)
 	LimitOncePerSystem(TradeStationFlag)
 	GiveTrade()
 	GlobalTradeNode()

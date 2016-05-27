@@ -1,4 +1,4 @@
-	Name: Building Assortment
+	Name: Building Assortment for Heralds
 	Description: <<
 		Extra buildings, changed buildings, get your fresh new buildings here!
 
@@ -7,12 +7,9 @@
 		*Planetary cannons are upgraded, and can be upgraded further by constructing an ammo plant. You have two options, more fleet area damage or range+single target damage.
 		*Ancient Planetary Cannons fire micro-singularity shells now. They kill fleets.
 		*Cloning Center - mid to endgame research unlock, +400% population growth for large maint. cost and research penalty. No new art yet.
-		* Cheaper refineries, but they decrease Pressure cap representing your populace having less time to work on raw resources as more of them work in the refinery.
-		* Forges slowly generate ore if they are on the same planet as a space elevator (to get the ore where it's needed).  Additionally, forges get LESS expensive again if you demolish them.
+		* Cheaper refineries, but they decrease Pressure cap representing your populace having less time to work on raw resources as more of them work in the refinery (now in core game, but they're still cheaper here).
+		* Forges slowly generate ore if they are on the same planet as a space elevator (to get the ore where it's needed).  Additionally, forges get LESS expensive again if you demolish them (now in core game).
 		* Habitat Belt, increases population size and buildable area.
 		* Trade Stations generate money per friendly planet, and cost a little less, but are limited to one per system.
-		* Farms and Hydrogenators are much cheaper to build and maintain on Forest and Ocean respectively.
-
-		This mod is now essentially deprecated and will not be updated as frequently as the Heralds version.
 	>>
 	Compatibility: 200

@@ -19,4 +19,4 @@ Building: Hydrogenator
 	RequireNotTrait(Mechanoid)
 	RequireNotTrait(Ancient)
 
-	AI:AsCreatedResource(BuildingWater)
+	AI: AsCreatedResource(BuildingWater)

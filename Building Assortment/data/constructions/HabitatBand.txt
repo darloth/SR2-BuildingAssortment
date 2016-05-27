@@ -11,6 +11,8 @@ Construction: HabitatBand
 	OnStart(AddStatus(ConstructingHabitatBand))
 	OnCancel(RemoveStatusInstance(ConstructingHabitatBand))
 
+	RequireNotTrait(Ancient)
+	RequireNotTrait(StarChildren)
 	RequireNotStatus(ConstructingHabitatBand)
 	RequireNotStatus(HabitatBand)
 	AddStatus(HabitatBand, Max Stacks = 1)

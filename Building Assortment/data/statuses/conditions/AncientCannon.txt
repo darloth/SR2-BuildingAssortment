@@ -6,4 +6,4 @@ Status: AncientCannon
 	Condition Frequency: 0.05
 	Color: #ff8080
 
-	TriggerCreate( SpawnBuilding(AncientCannon, (4, 3), Develop = False) )
+	TriggerCreate( SpawnBuilding(AncientCannon, (4, 3)) )

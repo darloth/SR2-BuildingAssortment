@@ -1,0 +1,10 @@
+Status: Interdicted
+	Name: #STATUS_INTERDICTED
+	Description: #STATUS_INTERDICTED_DESC
+	Icon: QuickbarIcons::7 * #00ff00
+	Color: #ff8000
+	Unique: True
+
+	ApplyToUncolonizedPlanets()
+	TriggerCreate(TakeControl())
+

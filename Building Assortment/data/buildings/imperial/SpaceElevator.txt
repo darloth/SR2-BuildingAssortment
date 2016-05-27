@@ -9,8 +9,10 @@ Building: SpaceElevator
 	Base Cost: 750
 	Build Time: 120
 
+	RequireNotTrait(Ancient)
+
 	ModSupportBuildSpeed(+0.4)
-	IfSystemFlag(CommerceStation, AddResource(Money, 1.6)) #version<125
+	IfSystemFlag(TradeStationFlag, AddResource(Money, 1.6))
 
 	AddStatus(HasSpaceElevator)
 	AddPlanetGfxFlag(SpaceElevator)

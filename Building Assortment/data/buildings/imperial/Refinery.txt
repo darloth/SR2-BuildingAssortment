@@ -13,6 +13,8 @@ Building: Refinery
 	Base Maintenance: 25
 	Tile Maintenance: 20
 
-	AddPressureCap(-1)
+	RequireNotTrait(Ancient)
+
 	RequireNativePressure(Allow Money = False)
 	GiveNativePressure(1, Allow Money = False)
+	AddPressureCap(-1)
